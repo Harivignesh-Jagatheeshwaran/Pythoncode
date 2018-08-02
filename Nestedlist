@@ -1,0 +1,13 @@
+m = []
+l=[]
+n=int(input())
+for i in range(0,n):
+    m.append([input(), float(input())])
+import operator;
+l=sorted(m,key=operator.itemgetter(1),reverse=True)
+print(l)
+ma=l[0][1]
+print(ma)
+
+
+
